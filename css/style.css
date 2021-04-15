@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+}
+
+section {
+  padding: 8em;
+  height: 100vh;
+}
+
+section:nth-of-type(2) {
+  background: darkgreen;
+  color: white;
+}
+
+.custom {
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+}
